@@ -1,5 +1,3 @@
-/* ===================== HOME ===================== */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,400&display=swap');
@@ -42,6 +40,8 @@ nav a {
    color: chocolate;
 }
 /* ===================== TOP ===================== */
+
+/* ===================== HOME ===================== */
 
 article .seccion1 {
     display: flex;
@@ -91,7 +91,7 @@ footer ul li {
     width: 30px;
 }
 
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
     header img {
         display: none;
     }
@@ -129,7 +129,7 @@ footer ul li {
     article .seccion2 .foto2 {
         width: 70%;
     }
-}
+} */
 
 
 /* ===================== PRODUCTOS ===================== */
@@ -182,7 +182,7 @@ footer ul li {
     color: #8c1919;
 }
 
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
     #main_sucursales {
         flex-wrap: wrap;
     }
@@ -196,7 +196,7 @@ footer ul li {
         height: 200px;
         border-radius: 10px;
     }
-}
+} */
 
 /* ===================== PREGUNTAS FRECUENTES ===================== */
 
@@ -208,6 +208,13 @@ footer ul li {
     margin-top: 4%;
     color: #8c1919;
 }
+
+/* @media (max-width: 680px) {
+    .section_frecuentes {
+        margin-top: 10%;
+        font-size: 0.9rem;
+    }
+} */
 
 
 /* ===================== CONTACTO ===================== */
@@ -242,4 +249,73 @@ footer ul li {
     width: 30%;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 680px) {
+
+/* -----  Top ----- */
+    header img {
+        display: none;
+    }
+
+    .linea {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+/* -----  Home ----- */
+    article .seccion1 {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin-top: 12%;
+    }
+
+    article .seccion1 .foto1 {
+        width: 70%;
+    }
+
+    article .seccion2 {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+
+    article .seccion2 p {
+        margin-right: 0;
+        color: #8c1919;
+    }
+
+    article .seccion2 .foto2 {
+        width: 70%;
+    }
+
+/* -----  Sucursales ----- */
+    #main_sucursales {
+        flex-wrap: wrap;
+    }
+
+    #h3_sucursales {
+        margin-top: 10%;
+    }
+
+    .mapita {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+/* -----  Preguntas Frecuentes ----- */
+    .section_frecuentes {
+        margin-top: 10%;
+        font-size: 0.9rem;
+    }
+
+/* -----  Contacto ----- */
+    #form_contacto {
+        width: 75%;
+    }
 }
