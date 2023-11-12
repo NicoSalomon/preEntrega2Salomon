@@ -6,9 +6,13 @@
 
 body {
     background-color: antiquewhite;
+    /* background-image: url("../img/fondo_phone.jpg");
+    background-size: 100% 100%; */
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+/* ===================== TOP ===================== */
 
 header img {
     width: 100px;
@@ -37,6 +41,7 @@ nav a {
    font-weight: bold;
    color: chocolate;
 }
+/* ===================== TOP ===================== */
 
 article .seccion1 {
     display: flex;
@@ -49,8 +54,10 @@ article .seccion1 {
 
 article .seccion1 .foto1 {
     width: 45%;
+    height: 45%;
     border-radius: 30px;
     cursor: pointer;
+    object-fit: contain; /* MMMMMMMM.................................................. */
 }
 
 article .seccion2 {
@@ -64,8 +71,10 @@ article .seccion2 {
 
 article .seccion2 .foto2 {
     width: 40%;
+    height: 40%;
     border-radius: 30px;
     cursor: pointer;
+    object-fit: contain;
 }
 
 footer {
@@ -81,6 +90,46 @@ footer ul li {
 
 .icono_redes {
     width: 30px;
+}
+
+@media (max-width: 1070px) {
+    header img {
+        display: none;
+    }
+
+    .linea {
+        display: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    article .seccion1 {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin-top: 12%;
+    }
+
+    article .seccion1 .foto1 {
+        width: 70%;
+    }
+
+    article .seccion2 {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    article .seccion2 p {
+        margin-right: 0;
+        color: #8c1919;
+    }
+
+    article .seccion2 .foto2 {
+        width: 70%;
+    }
 }
 
 
