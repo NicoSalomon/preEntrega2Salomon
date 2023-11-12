@@ -1,0 +1,181 @@
+/* ===================== HOME ===================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,400&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    width: 100px;
+    border-radius: 35px;
+    position: absolute;
+    cursor: pointer;
+}
+
+header h1 {
+    text-align: center;
+    color: #8c1919;
+}
+
+nav {
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 3%;
+    margin-bottom: 0;
+}
+
+nav a {
+   text-decoration: none; 
+   font-weight: bold;
+   color: chocolate;
+}
+
+article .seccion1 {
+    display: flex;
+    margin: 8% 10%;
+    text-align: right;
+}article .seccion1 p {
+    margin-left: 3%;
+    color: #8c1919;
+}
+
+article .seccion1 .foto1 {
+    width: 45%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+article .seccion2 {
+    display: flex;
+    margin: 8% 10%;
+    text-align: left;
+}article .seccion2 p {
+    margin-right: 3%;
+    color: #8c1919;
+}
+
+article .seccion2 .foto2 {
+    width: 40%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 15px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 1% 7%;
+}
+
+.icono_redes {
+    width: 30px;
+}
+
+
+/* ===================== PRODUCTOS ===================== */
+
+
+#main_productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#main_productos img{
+    width: 120px;
+    height: 80px;
+    margin: 50px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #8c1919;
+}
+
+/* ===================== SUCURSALES ===================== */
+
+#main_sucursales {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#h3_sucursales {
+    margin-top: 3%;
+    text-align: center;
+    color: #8c1919;
+}
+
+.mapita {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.section_sucursales {
+    margin: 0 5%;
+    color: #8c1919;
+}
+
+/* ===================== PREGUNTAS FRECUENTES ===================== */
+
+
+.section_frecuentes {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 4%;
+    color: #8c1919;
+}
+
+
+/* ===================== CONTACTO ===================== */
+
+#form_contacto {
+    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+#form_contacto label, input, textarea {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    color: #8c1919;
+    width: 50%;
+}
+
+#contenedor_botones {
+    display: flex;
+    margin-top: 8%;
+}
+
+.boton_contacto {
+    color: #8c1919;
+    border-color: #8c1919;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
