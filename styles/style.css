@@ -210,14 +210,6 @@ footer ul li {
         display: none;
     }
 
-    ul {
-        padding: 0;
-    }
-
-    nav a {
-        margin: 3vh;
-    }
-
 /* -----  Home ----- */
     article .seccion1 {
         flex-wrap: wrap;
